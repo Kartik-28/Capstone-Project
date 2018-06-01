@@ -24,8 +24,27 @@ namespace E_Commerce_Site
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/css/bootstrap.min.css",
+                      "~/Content/css/font-awesome.min.css",
+                      "~/Content/css/animate.css",
+                      "~/Content/css/hamburgers.min.css",
+                      "~/Content/css/animsition.min.css",
+                      "~/Content/css/animsition.css",
+                      "~/Content/css/daterangepicker.css",
+                      "~/Content/css/slick.css",
+                      "~/Content/css/lightbox.min.css",
+                      "~/Content/util.css",
+                      "~/Content/main.css",
+                      "~/Content/select2.min.css"));
+
+            bundles.Add(new StyleBundle("~/Fonts/fonts").Include(
+                "~/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+                "~/fonts/themify/themify-icons.css",
+                "~/fonts/Linearicons-Free-v1.0.0/icon-font.min.css",
+                "~/fonts/elegant-font/html-css/style.css"));
+
+            bundles.Add(new StyleBundle("~/Images/images").Include(
+                "~/images/favicon.png"));
         }
     }
 }

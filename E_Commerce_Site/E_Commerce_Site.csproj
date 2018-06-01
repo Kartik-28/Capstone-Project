@@ -2774,7 +2774,9 @@
     <Content Include="fonts\themify\Themify IconFonts 5-23-2014.json" />
     <Content Include="images\ajax-loader.gif" />
     <Content Include="images\close.png" />
+    <Content Include="images\favicon.png" />
     <Content Include="images\loading.gif" />
+    <Content Include="images\logo.png" />
     <Content Include="images\next.png" />
     <Content Include="images\prev.png" />
     <Content Include="images\ui-icons_444444_256x240.png" />
