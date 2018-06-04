@@ -23,6 +23,19 @@ namespace E_Commerce_Site
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/Index/js").Include(
+                      "~/Scripts/js/jquery-3.2.1.min.js",
+                      "~/Scripts/js/animsition.js",
+                      "~/Scripts/js/popper.js",
+                      "~/Scripts/js/bootstrap.min.js",
+                      "~/Scripts/js/select2.min.js",
+                      "~/Scripts/js/slick.min.js",
+                      "~/Scripts/slick-custom.js",
+                      "~/Scripts/js/countdowntime.js",
+                      "~/Scripts/js/lightbox.min.js",
+                      "~/Scripts/js/sweetalert.min.js",
+                      "~/Scripts/main.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/bootstrap.min.css",
                       "~/Content/css/font-awesome.min.css",
