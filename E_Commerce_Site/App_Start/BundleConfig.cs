@@ -38,17 +38,17 @@ namespace E_Commerce_Site
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/bootstrap.min.css",
-                      "~/Content/css/font-awesome.min.css",
                       "~/Content/css/animate.css",
                       "~/Content/css/hamburgers.min.css",
+                      "~/Content/css/hamburgers.css",
                       "~/Content/css/animsition.min.css",
                       "~/Content/css/animsition.css",
+                       "~/Content/css/select2.min.css",
                       "~/Content/css/daterangepicker.css",
                       "~/Content/css/slick.css",
                       "~/Content/css/lightbox.min.css",
                       "~/Content/util.css",
-                      "~/Content/main.css",
-                      "~/Content/select2.min.css"));
+                      "~/Content/main.css"));
 
             bundles.Add(new StyleBundle("~/Fonts/fonts").Include(
                 "~/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
