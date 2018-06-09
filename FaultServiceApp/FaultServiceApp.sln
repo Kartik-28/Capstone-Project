@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaultServiceApp", "FaultServiceApp.csproj", "{CFEAB93A-AD92-4BAD-A323-2981CD4E2C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaultServiceHost", "..\FaultServiceHost\FaultServiceHost.csproj", "{8445A3A3-393A-4B79-B668-C65BBD1A4E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFEAB93A-AD92-4BAD-A323-2981CD4E2C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEAB93A-AD92-4BAD-A323-2981CD4E2C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEAB93A-AD92-4BAD-A323-2981CD4E2C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEAB93A-AD92-4BAD-A323-2981CD4E2C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8445A3A3-393A-4B79-B668-C65BBD1A4E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8445A3A3-393A-4B79-B668-C65BBD1A4E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8445A3A3-393A-4B79-B668-C65BBD1A4E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8445A3A3-393A-4B79-B668-C65BBD1A4E75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

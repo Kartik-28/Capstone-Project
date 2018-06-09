@@ -6,9 +6,10 @@
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Fonts/fonts")
     @Scripts.Render("~/bundles/modernizr")
+    
 
 </head>
-<body class="animsition>
+<body class="animsition">
     <!-- Header -->
     <header class="header1">
         <!-- Header desktop -->
@@ -37,13 +38,14 @@
                             <option>EUR</option>
                         </select>
                     </div>
+
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
                 <a href="index.html" class="logo">
-                    <img src="~/images/logo.png" alt="IMG-LOGO">
+                    <img src="~/images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu -->
@@ -88,9 +90,10 @@
 
                 <!-- Header Icon -->
                 <div class="header-icons">
-                    <a href="#" class="header-wrapicon1 dis-block">
+                    <a href="#" data-toggle="modal" data-target="#myModal4" class="header-wrapicon1 dis-block">
                         <img src="~/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
                     </a>
+
 
                     <span class="linedivide1"></span>
 
@@ -169,6 +172,75 @@
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Data Toggle-->
+        <div class="modal fade" id="myModal4" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="login p-l-55 p-r-55 p-t-30 p-b-30">
+                            <form class="login-form ">
+                                <span class="login-form-title p-b-49">
+                                    Sign In
+                                </span>
+
+                                <div class="login-wrap">
+                                    <span class="login-form-label">Username</span>
+                                    <input class="login-form-input" type="text" name="userName" placeholder="">
+                                    <span class="focus-input100" data-symbol="&#xf206;"></span>
+                                </div>
+
+                                <div class="login-wrap">
+                                    <span class="login-form-label">Password</span>
+                                    <input class="login-form-input" type="password" name="password" placeholder="">
+                                </div>
+                                <div class="text-right p-t-8 p-b-31">
+                                    <a href="#">
+                                        Forgot password?
+                                    </a>
+                                </div>
+
+
+
+                                <div class="login-form-btn">
+                                    <!-- Button -->
+                                    <button class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4">
+                                        Sign In
+                                    </button>
+                                </div>
+                                <div class="text-center p-t-57 p-b-20">
+                                    <span class="txt3">
+                                        Or Login with
+                                    </span>
+                                </div>
+                                <div class="flex-c p-b-112">
+                                    <a href="#" class="login-social-item bg1">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+
+                                    <a href="" class="login-social-item bg2">
+                                        <i class="fa fa-google"></i>
+                                    </a>
+                                </div>
+                                <div class="flex-col-c p-t-40">
+                                    <span class="txt3 p-b-17">
+                                        Not a Member Yet?
+                                    </span>
+
+                                    <a href="#" class="txt1">
+                                        Sign Up
+                                    </a>
+                                </div>
+
+                            </form>
+
                         </div>
                     </div>
                 </div>
