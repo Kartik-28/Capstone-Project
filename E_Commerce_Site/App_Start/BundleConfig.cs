@@ -36,6 +36,22 @@ namespace E_Commerce_Site
                       "~/Scripts/js/sweetalert.min.js",
                       "~/Scripts/main.js"));
 
+
+            bundles.Add(new ScriptBundle("~/Products/js").Include(
+                      "~/Scripts/js/jquery-3.2.1.min.js",
+                      "~/Scripts/js/animsition.js",
+                      "~/Scripts/js/popper.js",
+                      "~/Scripts/js/bootstrap.min.js",
+                      "~/Scripts/js/select2.min.js",
+                      "~/Scripts/js/moment.min.js",
+                      "~/Scripts/js/daterangepicker.js.min.js",
+                      "~/Scripts/js/slick.min.js",
+                      "~/Scripts/slick-custom.js",
+                      "~/Scripts/js/sweetalert.min.js",
+                      "~/Scripts/js/nouislider.min.js",
+                      "~/Scripts/main.js"));
+
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/bootstrap.min.css",
                       "~/Content/css/animate.css",
@@ -47,6 +63,23 @@ namespace E_Commerce_Site
                       "~/Content/css/daterangepicker.css",
                       "~/Content/css/slick.css",
                       "~/Content/css/lightbox.min.css",
+                      "~/Content/css/nouislider.min.css",
+                      "~/Content/css/nouislider.css",
+                      "~/Content/util.css",
+                      "~/Content/main.css"));
+
+            bundles.Add(new StyleBundle("~/Product/css").Include(
+                      "~/Content/css/bootstrap.min.css",
+                      "~/Content/css/animate.css",
+                      "~/Content/css/hamburgers.min.css",
+                      "~/Content/css/hamburgers.css",
+                      "~/Content/css/animsition.min.css",
+                      "~/Content/css/animsition.css",
+                       "~/Content/css/select2.min.css",
+                      "~/Content/css/daterangepicker.css",
+                      "~/Content/css/slick.css",
+                      "~/Content/css/nouislider.min.css",
+                      "~/Content/css/nouislider.css",
                       "~/Content/util.css",
                       "~/Content/main.css"));
 

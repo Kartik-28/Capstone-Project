@@ -1,4 +1,6 @@
-﻿<html>
+﻿@using E_Commerce_Site.Models
+@model LoginViewModel
+<html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,7 +8,7 @@
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Fonts/fonts")
     @Scripts.Render("~/bundles/modernizr")
-
+    
 
 </head>
 <body class="animsition">
@@ -31,7 +33,7 @@
                     <span class="topbar-email">
                         fashe@example.com
                     </span>
-
+     
                     <div class="topbar-language rs1-select2">
                         <select class="selection-1" name="time">
                             <option>USD</option>
@@ -220,14 +222,12 @@
                                     </span>
                                 </div>
                                 <div class="flex-c p-b-112">
-                                    <button type="submit" class="login-social-item bg1">
+                                    <a href="#" class="login-social-item bg1">
                                         <i class="fa fa-facebook"></i>
-                                    </button>
-                                    <i class="fa fa-google">
-                                        <input type="button" class="login-social-item bg2" id="googleClick">
-                                    </i>
-
-
+                                    </a>
+                                   @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                                    
+                                    </a>
                                 </div>
                                 <div class="flex-col-c p-t-40">
                                     <span class="txt3 p-b-17">
@@ -423,9 +423,9 @@
             </nav>
         </div>
     </header>
-
-    @RenderBody()
-
+        
+        @RenderBody()
+        
     <!-- Shipping -->
     <section class="shipping bgwhite p-t-62 p-b-46">
         <div class="flex-w p-l-15 p-r-15">
@@ -646,6 +646,5 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-
 </body>
 </html>
