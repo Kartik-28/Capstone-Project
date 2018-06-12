@@ -58,11 +58,11 @@ namespace E_Commerce_Site
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "352603409877-ks2hjsjb1ljsu2tk2k5aaj119usm2ig1.apps.googleusercontent.com ",
-            //    ClientSecret = "YE6DQmxPVCAZBMEJiLvpi3g9"
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "352603409877-ks2hjsjb1ljsu2tk2k5aaj119usm2ig1.apps.googleusercontent.com ",
+                ClientSecret = "YE6DQmxPVCAZBMEJiLvpi3g9"
+            });
         }
     }
 }

@@ -6,7 +6,7 @@
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Fonts/fonts")
     @Scripts.Render("~/bundles/modernizr")
-    
+
 
 </head>
 <body class="animsition">
@@ -31,7 +31,7 @@
                     <span class="topbar-email">
                         fashe@example.com
                     </span>
-     
+
                     <div class="topbar-language rs1-select2">
                         <select class="selection-1" name="time">
                             <option>USD</option>
@@ -220,13 +220,14 @@
                                     </span>
                                 </div>
                                 <div class="flex-c p-b-112">
-                                    <a href="#" class="login-social-item bg1">
+                                    <button type="submit" class="login-social-item bg1">
                                         <i class="fa fa-facebook"></i>
-                                    </a>
+                                    </button>
+                                    <i class="fa fa-google">
+                                        <input type="button" class="login-social-item bg2" id="googleClick">
+                                    </i>
 
-                                    <a href="" class="login-social-item bg2">
-                                        <i class="fa fa-google"></i>
-                                    </a>
+
                                 </div>
                                 <div class="flex-col-c p-t-40">
                                     <span class="txt3 p-b-17">
@@ -422,9 +423,9 @@
             </nav>
         </div>
     </header>
-        
-        @RenderBody()
-        
+
+    @RenderBody()
+
     <!-- Shipping -->
     <section class="shipping bgwhite p-t-62 p-b-46">
         <div class="flex-w p-l-15 p-r-15">
@@ -645,5 +646,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
 </body>
 </html>
