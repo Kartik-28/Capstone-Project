@@ -1,4 +1,6 @@
-﻿<html>
+﻿@using E_Commerce_Site.Models
+@model LoginViewModel
+<html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -223,9 +225,8 @@
                                     <a href="#" class="login-social-item bg1">
                                         <i class="fa fa-facebook"></i>
                                     </a>
-
-                                    <a href="" class="login-social-item bg2">
-                                        <i class="fa fa-google"></i>
+                                   @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                                    
                                     </a>
                                 </div>
                                 <div class="flex-col-c p-t-40">
