@@ -91,6 +91,10 @@ namespace E_Commerce_Site
 
             bundles.Add(new StyleBundle("~/Images/images").Include(
                 "~/images/favicon.png"));
+
+            bundles.Add(new StyleBundle("~/Content/csss").Include(
+                     "~/Content/bootstrap.css",
+                     "~/Content/site.css"));
         }
     }
 }
