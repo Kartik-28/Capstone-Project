@@ -42,6 +42,25 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*
     Login Page Css
 */
+.btn-facebook {
+    background: #305c99;
+    color: #fff;
+}
+
+.btn-google:hover {
+    background: #b22222;
+    color: #fff;
+}
+
+.btn-facebook:hover {
+    background: #2b4db1;
+    color: #fff;
+}
+
+.btn-google {
+    background: #d24228;
+    color: #fff;
+}
 .login {
     background: #fff;
     
